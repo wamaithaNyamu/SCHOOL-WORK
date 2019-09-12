@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/scorePrompt.dir/scorePrompt.cpp.o  -o scorePrompt 

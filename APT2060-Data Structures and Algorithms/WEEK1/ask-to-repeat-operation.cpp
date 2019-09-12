@@ -1,6 +1,10 @@
 //
 // Created by wamaitha on 9/12/19.
 //
+
+//
+// Created by wamaitha on 9/12/19.
+//
 /*library for input and output */
 #include <iostream>
 
@@ -32,10 +36,7 @@ int multiplication (int x,int y){
     return c;
 };
 
-
-
-
-int main(){
+void askInput(){
     int a, b;
     cout << "Enter the first number \n";
     cin >> a;
@@ -64,6 +65,22 @@ int main(){
         cout << "Invalid choice ";
 
     };
+
+}
+
+
+int main(){
+    askInput();
+    int instruction;
+    //ask user if to repeat or exit
+    cout<<"-------------------------------------------\n";
+    cout<<"Would you like to enter perform another operation\n"
+          "press 1 for YES \n"
+          "press 2 for EXIT \n";
+    cin >> instruction;
+    if(instruction == 1){
+        askInput();
+    }
     return 0;
 
 

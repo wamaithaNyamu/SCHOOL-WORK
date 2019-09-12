@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/WEEK1.dir/main.cpp.o CMakeFiles/WEEK1.dir/scorePrompt.cpp.o  -o WEEK1 

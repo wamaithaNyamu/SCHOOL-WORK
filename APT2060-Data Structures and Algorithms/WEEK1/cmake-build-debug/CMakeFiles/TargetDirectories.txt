@@ -1,0 +1,11 @@
+/home/wamaitha/Documents/SCHOOL WORK/APT2060-Data Structures and Algorithms/WEEK1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/wamaitha/Documents/SCHOOL WORK/APT2060-Data Structures and Algorithms/WEEK1/cmake-build-debug/CMakeFiles/empClass.dir
+/home/wamaitha/Documents/SCHOOL WORK/APT2060-Data Structures and Algorithms/WEEK1/cmake-build-debug/CMakeFiles/ask-to-repeat-operation.dir
+/home/wamaitha/Documents/SCHOOL WORK/APT2060-Data Structures and Algorithms/WEEK1/cmake-build-debug/CMakeFiles/main.dir
+/home/wamaitha/Documents/SCHOOL WORK/APT2060-Data Structures and Algorithms/WEEK1/cmake-build-debug/CMakeFiles/ask-user-if-to-enter-score-again.dir
+/home/wamaitha/Documents/SCHOOL WORK/APT2060-Data Structures and Algorithms/WEEK1/cmake-build-debug/CMakeFiles/WEEK1.dir
+/home/wamaitha/Documents/SCHOOL WORK/APT2060-Data Structures and Algorithms/WEEK1/cmake-build-debug/CMakeFiles/classStudent.dir
+/home/wamaitha/Documents/SCHOOL WORK/APT2060-Data Structures and Algorithms/WEEK1/cmake-build-debug/CMakeFiles/addition.dir
+/home/wamaitha/Documents/SCHOOL WORK/APT2060-Data Structures and Algorithms/WEEK1/cmake-build-debug/CMakeFiles/scorePrompt.dir
+/home/wamaitha/Documents/SCHOOL WORK/APT2060-Data Structures and Algorithms/WEEK1/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/wamaitha/Documents/SCHOOL WORK/APT2060-Data Structures and Algorithms/WEEK1/cmake-build-debug/CMakeFiles/operations.dir

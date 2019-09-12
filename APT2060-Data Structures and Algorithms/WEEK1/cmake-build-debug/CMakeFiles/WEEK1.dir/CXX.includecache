@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/wamaitha/Documents/SCHOOL WORK/APT2060-Data Structures and Algorithms/WEEK1/main.cpp
+iostream
+-
+
+/home/wamaitha/Documents/SCHOOL WORK/APT2060-Data Structures and Algorithms/WEEK1/scorePrompt.cpp
+iostream
+-
+

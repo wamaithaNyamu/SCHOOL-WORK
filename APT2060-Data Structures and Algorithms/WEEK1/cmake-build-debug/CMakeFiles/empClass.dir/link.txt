@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/empClass.dir/empClass.cpp.o  -o empClass 
