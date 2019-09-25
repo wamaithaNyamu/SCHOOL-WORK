@@ -124,6 +124,19 @@ empClass/fast:
 .PHONY : empClass/fast
 
 #=============================================================================
+# Target rules for targets named 2dArrays
+
+# Build rule for target.
+2dArrays: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 2dArrays
+.PHONY : 2dArrays
+
+# fast build rule for target.
+2dArrays/fast:
+	$(MAKE) -f CMakeFiles/2dArrays.dir/build.make CMakeFiles/2dArrays.dir/build
+.PHONY : 2dArrays/fast
+
+#=============================================================================
 # Target rules for targets named ask-to-repeat-operation
 
 # Build rule for target.
@@ -226,6 +239,33 @@ operations: cmake_check_build_system
 operations/fast:
 	$(MAKE) -f CMakeFiles/operations.dir/build.make CMakeFiles/operations.dir/build
 .PHONY : operations/fast
+
+2dArrays.o: 2dArrays.cpp.o
+
+.PHONY : 2dArrays.o
+
+# target to build an object file
+2dArrays.cpp.o:
+	$(MAKE) -f CMakeFiles/2dArrays.dir/build.make CMakeFiles/2dArrays.dir/2dArrays.cpp.o
+.PHONY : 2dArrays.cpp.o
+
+2dArrays.i: 2dArrays.cpp.i
+
+.PHONY : 2dArrays.i
+
+# target to preprocess a source file
+2dArrays.cpp.i:
+	$(MAKE) -f CMakeFiles/2dArrays.dir/build.make CMakeFiles/2dArrays.dir/2dArrays.cpp.i
+.PHONY : 2dArrays.cpp.i
+
+2dArrays.s: 2dArrays.cpp.s
+
+.PHONY : 2dArrays.s
+
+# target to generate assembly for a file
+2dArrays.cpp.s:
+	$(MAKE) -f CMakeFiles/2dArrays.dir/build.make CMakeFiles/2dArrays.dir/2dArrays.cpp.s
+.PHONY : 2dArrays.cpp.s
 
 addition.o: addition.cpp.o
 
@@ -457,6 +497,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... empClass"
+	@echo "... 2dArrays"
 	@echo "... ask-to-repeat-operation"
 	@echo "... main"
 	@echo "... ask-user-if-to-enter-score-again"
@@ -466,6 +507,9 @@ help:
 	@echo "... scorePrompt"
 	@echo "... edit_cache"
 	@echo "... operations"
+	@echo "... 2dArrays.o"
+	@echo "... 2dArrays.i"
+	@echo "... 2dArrays.s"
 	@echo "... addition.o"
 	@echo "... addition.i"
 	@echo "... addition.s"

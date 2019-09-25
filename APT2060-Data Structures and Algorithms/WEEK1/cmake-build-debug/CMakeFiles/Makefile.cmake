@@ -49,6 +49,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/empClass.dir/DependInfo.cmake"
+  "CMakeFiles/2dArrays.dir/DependInfo.cmake"
   "CMakeFiles/ask-to-repeat-operation.dir/DependInfo.cmake"
   "CMakeFiles/main.dir/DependInfo.cmake"
   "CMakeFiles/ask-user-if-to-enter-score-again.dir/DependInfo.cmake"
