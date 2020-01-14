@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My estaurant</title>
+</head>
+<style>
+    body{
+        display: flex;
+        background-color: #edf7fa;
+        color: #5f6caf;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        scroll-behavior: smooth;
+
+
+
+    }
+    section{
+        max-height: 100vh;
+    }
+
+    .header--section {
+  flex: 3 0px;
+  justify-content: space-between;
+  align-items: center;
+}
+.header--section button {
+  background-color: #faf5e4;
+  border: none;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  -webkit-transition-duration: 0.4s;
+  /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+  color: #004445;
+  font-size: 20px;
+  margin: 4px 2px;
+  border-bottom: 1px solid #ffb677;
+  border-right: 1px solid #ffb677;
+}
+.header--section button:hover {
+  background-color: #ffb677;
+}
+.header--section .active {
+  color: #004445 !important;
+  background-color: #ffb677 !important;
+  padding: 20px 40px;
+  font-size: 30px;
+}
+
+    .home--section {
+  order: 1;
+  display: flex;
+  min-height: 100vh;
+  /* padding-left: 10%; */
+  /* padding-right: 10%; */
+}
+
+.home--section--left {
+  width: 50%;
+  padding-top: 4%;
+}
+
+.home--section--right {
+  width: 100%;
+  font-size: 90px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  /* padding-left: 7%; */
+}
+.about--us{
+    font-size: 40px;
+    padding: 10%;
+    display: flex;
+
+}
+    table{
+        background-color: #5f6caf;
+        color: #edf7fa;
+    }
+    .menu{
+        font-size: 40px;
+        padding: 10%;
+
+}
+td, th{
+    padding: 1%;
+    width: 100%;
+    border:1px solid #ff8364;
+
+}
+</style>
+<body>
+    <body>
+
+
+        <div class="content--wrapper">
+           <!-- ......................................................................................... -->
+        <!-- header -->
+           <section>
+               <div class="header--section">
+                   
+                <a href="#">    <button >Home</button></a>
+                <a href="#about--us">   <button >About Us</button> </a>
+                <a href="#menu"><button>Menu</button></a>
+        
+               </div>
+        
+        </section>
+           <!-- Home section -->
+        <section class="home" id="#">
+            <div class="home--section">
+                <div class="home--section--left">
+                    <!-- image of the landing page  -->
+                    <div class="home--section--left__centered">
+                        <img src="food.svg" alt="">
+                    </div>
+                </div>
+                <div class="home--section--right">
+                    <!-- introductory text -->
+                    <div class="home--section--right__centered">
+                        <h1>MY RESTAURANT </h1>
+        
+                    </div>
+                </div>
+            </div>
+        
+        </section>
+        <!-- ......................................................................................... -->
+        <section>
+            <div class="about--us" id="about--us">
+                <div class="text">
+                        <p>Welcome to my restaurant where we serve you all kinds of omletes and eggs. You should certainly try our mixed omletes. They are delciious and only served in our premises. We still dont know if the eggg came before the chicken.</p>
+                    </div>
+                    <div class="image">
+                        <img src="ham.svg" alt="">
+                    </div>
+
+                </p>
+            </div>
+        </section>
+        <section>
+            <div class="menu" id="menu">
+                <table>
+                    <tr>
+                        <th>Meal</th>
+                        <th>Cost </th>
+                    </tr>
+                    <tr>
+                        <td>SPANISH OMELETE</td>
+                        <td>$1            </td>
+
+                    </tr>
+                    <tr>
+                        <td>DUTCH OMELETE</td>
+                        <td>$2</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>GREEK OMELETE</td>
+                        <td>$3</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>HANOI OMELETE</td>
+                        <td>$4</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>THRONE OMELETE</td>
+                        <td>$5</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>QUAIL OMELETE</td>
+                        <td>$6</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>KENYAN OMELETE</td>
+                        <td>$7</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>MIX OMELETE</td>
+                        <td>$8</td>
+                        
+                    </tr>
+                </table>
+            </div>
+        </section>
+</body>
+</html>
